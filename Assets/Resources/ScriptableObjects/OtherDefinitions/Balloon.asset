@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dcdd2a2bcaa298488aaa1d341e916a2, type: 3}
+  m_Name: Balloon
+  m_EditorClassIdentifier: 
+  gridEntityPrefab: {fileID: 2026276396091767010, guid: 9db6ef58d4f633d49bf3204a86184f46, type: 3}
+  gridEntityTypeName: Balloon
+  defaultSprite: {fileID: 21300000, guid: 7c68210abc545d243b04871c4aae9198, type: 3}
+  onDestroyParticle: {fileID: 4978614817292425221, guid: 8ec97fadcb7b77e4bbfe088b7dde75fa, type: 3}
+  onDestroyAudio: {fileID: 8300000, guid: 37a836052d282c54396359ba499e68a5, type: 3}
+  entityIncludedInShuffle: 0
+  immuneToDestroyTypes: 

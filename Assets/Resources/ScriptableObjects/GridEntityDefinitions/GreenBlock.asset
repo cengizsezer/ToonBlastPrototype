@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94454db10793e624cbd3a40c8f614f28, type: 3}
+  m_Name: GreenBlock
+  m_EditorClassIdentifier: 
+  gridEntityPrefab: {fileID: 2026276396091767010, guid: 6c34668568fd37a48a50fda59cf4ecb0, type: 3}
+  gridEntityTypeName: Green
+  defaultSprite: {fileID: 21300000, guid: e1ada36e74f3ec946a435d0ee6920f6c, type: 3}
+  onDestroyParticle: {fileID: 7218581546105527683, guid: 2f27c087957ed804ab709482003f8c3a, type: 3}
+  onDestroyAudio: {fileID: 8300000, guid: 075c360ba8f8cd3459c714a3cd9472a3, type: 3}
+  entityIncludedInShuffle: 1
+  immuneToDestroyTypes: 
+  blockMatchConditions:
+  - condition: {fileID: 11400000, guid: 2622edbb6dca47f45a4b239a5f4b0171, type: 2}
+    sprite: {fileID: 21300000, guid: c36b151c0736c4c4ea30afbee1c2a459, type: 3}
+    entitiesToSpawnOnMatch:
+    - {fileID: 11400000, guid: 8b69da4af4fa8b541bd48b15555b472b, type: 2}
+    - {fileID: 11400000, guid: 4a001e967ad76b84b953d5c5eec2de61, type: 2}

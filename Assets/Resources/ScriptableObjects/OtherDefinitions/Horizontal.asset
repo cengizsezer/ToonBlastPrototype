@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924501e9142d8c3488ac9163bef09f95, type: 3}
+  m_Name: Horizontal
+  m_EditorClassIdentifier: 
+  gridEntityPrefab: {fileID: 4829086579435009453, guid: 2eef5dc5421fca44cb60bbbbae99f02c, type: 3}
+  gridEntityTypeName: Vertical
+  defaultSprite: {fileID: 21300000, guid: bfc5ce00e482ae44d89954d42facb0e0, type: 3}
+  onDestroyParticle: {fileID: 0}
+  onDestroyAudio: {fileID: 8300000, guid: acf12727abc79984196b441805b221eb, type: 3}
+  entityIncludedInShuffle: 0
+  immuneToDestroyTypes: 
+  rocketExplodeAnimPrefab: {fileID: 1905907544835078951, guid: b1c82f91e03816d45b06f341f92659fb, type: 3}

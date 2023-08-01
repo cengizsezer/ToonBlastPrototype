@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6e0297831ebf648ae1a3c835f2aa7f, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  gridControllerSettings:
+    rowCount: 9
+    collumnCount: 9
+    maxEntitiesPerRow: 9
+    maxEntitiesPerCollumn: 9
+    gridFrameWidthAdd: 20
+    gridFrameBottomAdd: 16
+    gridFrameTopAdd: 26
+  gridEntitySpawnerSettings:
+    gridStartLayout:
+      rows:
+      - row:
+        - {fileID: 11400000, guid: 15751cfa613d5e348a627be32f47ac28, type: 2}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+      - row:
+        - {fileID: 11400000, guid: 15751cfa613d5e348a627be32f47ac28, type: 2}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+      - row:
+        - {fileID: 11400000, guid: 15751cfa613d5e348a627be32f47ac28, type: 2}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+      - row:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+      - row:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 11400000, guid: a0ead007455e63b4cab20b538a6146ab, type: 2}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+      - row:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 11400000, guid: a0ead007455e63b4cab20b538a6146ab, type: 2}
+      - row:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 11400000, guid: a0ead007455e63b4cab20b538a6146ab, type: 2}
+      - row:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 11400000, guid: a0ead007455e63b4cab20b538a6146ab, type: 2}
+      - row:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 11400000, guid: a0ead007455e63b4cab20b538a6146ab, type: 2}
+    entityTypes:
+    - {fileID: 11400000, guid: b6f50ebe24f7c6645a69fa4c9ede49b9, type: 2}
+    - {fileID: 11400000, guid: d7fd0a5efc3695249a61b5cc866e812e, type: 2}
+    - {fileID: 11400000, guid: b967fdc6ce316004bb103c1480cd7389, type: 2}
+    - {fileID: 11400000, guid: 7bf2191f715553a4986b084a73014334, type: 2}
+    - {fileID: 11400000, guid: 8818beb8fbeb3fb49bae038cb0194922, type: 2}
+    spawnHeight: 500
+  goalsControllerSettings:
+    goalCollectAudio: {fileID: 8300000, guid: 3ad7b40cf0e8bdb43903381cf2519e31, type: 3}
+    gridGoals:
+    - entityType: {fileID: 11400000, guid: 15751cfa613d5e348a627be32f47ac28, type: 2}
+      goalAmount: 20
+    - entityType: {fileID: 11400000, guid: b6f50ebe24f7c6645a69fa4c9ede49b9, type: 2}
+      goalAmount: 20
+  movesController:
+    moveCount: 26
