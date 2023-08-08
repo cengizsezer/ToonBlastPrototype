@@ -2,4 +2,15 @@
 Proje ToonBlast Oyununun GamePlay Prototipidir.
 Oyunun base sistemi Constructor Dependency Injection tasarım modeli kullanılarak yazılmıştır.
 GridSpawnController,GridController,GridMoveController ve GridGoalController clasları LevelController'in Ctor'unda oluşturulmuş, LevelController ise GameManagerin Startında Oluşturulmuştur.
-Sahne referansları ve ScriptableObject olarak class settings'leri GameManagerde tutulmuş ve ilgili classlara buradan dağıtılmıştır.
+Sahne referansları ve ScriptableObject olarak class settings'leri GameManagerde tutulmuş ve ilgili classlara buradan dağıtılmıştır.public string GridEntityTypeName => gridEntityTypeName;
+
+public Sprite DefaultEntitySprite => defaultSprite;
+
+public GameObject OnDestroyParticle => onDestroyParticle;
+
+public AudioClip OnDestroyAudio => onDestroyAudio;
+
+public GameObject GridEntityPrefab => gridEntityPrefab;
+
+public bool EntityIncludedInShuffle => entityIncludedInShuffle;
+public List<EntityDestroyTypes> ImmuneToDestroyTypes => immuneToDestroyTypes;
