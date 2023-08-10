@@ -152,7 +152,7 @@ public class GridStartLayout
 
 ## GAME VIDEO:
 
-![LevelSetting](https://github.com/cengizsezer/ToonBlastPrototype/assets/79985357/c84cf532-439d-4181-b363-f11ab93b997d)<br/>
+![LevelSetting](https://github.com/cengizsezer/ToonBlastPrototype/assets/79985357/eaf597c0-3c25-4c85-8e84-0739b1baabff)
 
 
 
