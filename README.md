@@ -149,10 +149,16 @@ public class GridStartLayout
     }
 }
 ```
-![LevelSetting](https://github.com/cengizsezer/ToonBlastPrototype/assets/79985357/15d63a2a-2e8e-4bd1-96a6-e26d27087465)<br/>
+
 ## GAME VIDEO:
 
-https://github.com/cengizsezer/ToonBlastPrototype/assets/79985357/80a52a5d-948e-433c-b3ad-c61708c7b00b
+![LevelSetting](https://github.com/cengizsezer/ToonBlastPrototype/assets/79985357/c84cf532-439d-4181-b363-f11ab93b997d)<br/>
+
+
+
+https://github.com/cengizsezer/ToonBlastPrototype/assets/79985357/bf57ca37-6a49-4612-b609-740aae07875a
+
+
 
 
 
